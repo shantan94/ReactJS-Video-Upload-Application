@@ -33,6 +33,8 @@
     "*.{js,jsx,json,css,md}": ["prettier --write", "git add"]
   },
   "devDependencies": {
-    "bootstrap": "^4.1.0"
+    "bootstrap": "^4.1.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.1.1"
   }
 }
