@@ -17,6 +17,10 @@ class VideoUpload extends Component {
     this.changeValue = this.changeValue.bind(this);
   }
 
+  componentWillReceiveProps(newProps) {
+    if (newProps.toggle) this.props.parentprops.history.push("/upload");
+  }
+
   uploadVideo = event => {
     event.preventDefault();
     var file = this.state.file;
@@ -85,24 +89,24 @@ class VideoUpload extends Component {
   }
 
   render() {
-    if (this.state.url) {
-      return (
-        <div className="container">
-          <h1>Upload a video</h1>
-          <hr />
-          <form onSubmit={this.uploadVideo}>
-            <input type="file" onChange={this.changeValue} accept="video/*" />
-            <br />
-            <br />
-            <button type="submit" className="btn btn-primary">
-              Upload
-            </button>
-          </form>
+    return (
+      <div className="container">
+        <h1>Upload a video</h1>
+        <hr />
+        <form onSubmit={this.uploadVideo}>
+          <input type="file" onChange={this.changeValue} accept="video/*" />
           <br />
-          <Progress animated value={this.state.complete}>
-            {this.state.complete}%
-          </Progress>
           <br />
+          <button type="submit" className="btn btn-primary">
+            Upload
+          </button>
+        </form>
+        <br />
+        <Progress animated value={this.state.complete}>
+          {this.state.complete}%
+        </Progress>
+        <br />
+        {this.state.url ? (
           <video
             id="clip"
             src={this.state.url}
@@ -111,28 +115,9 @@ class VideoUpload extends Component {
             width="640"
             height="264"
           />
-        </div>
-      );
-    } else {
-      return (
-        <div className="container">
-          <h1>Upload a video</h1>
-          <hr />
-          <form onSubmit={this.uploadVideo}>
-            <input type="file" onChange={this.changeValue} accept="video/*" />
-            <br />
-            <br />
-            <button type="submit" className="btn btn-primary">
-              Upload
-            </button>
-          </form>
-          <br />
-          <Progress animated value={this.state.complete}>
-            {this.state.complete}%
-          </Progress>
-        </div>
-      );
-    }
+        ) : null}
+      </div>
+    );
   }
 }
 

@@ -1,17 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-// import App from './App';
-// import registerServiceWorker from './registerServiceWorker';
-import VideoUpload from './components/video_upload';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Router from "./Router";
+import store from "./redux";
+import { Provider } from "react-redux";
 
-const App1=()=>{
-	return (
-	<div>
-		<VideoUpload />
-	</div>
-	);
-}
+const App1 = () => {
+  return (
+    <Provider store={store}>
+      <div>
+        <Router />
+      </div>
+    </Provider>
+  );
+};
 
-ReactDOM.render(<App1 />,document.getElementById('root'));
+ReactDOM.render(<App1 />, document.getElementById("root"));

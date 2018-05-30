@@ -1,0 +1,15 @@
+body {
+  width: 100%;
+}
+td {
+  padding: 8px;
+}
+.move {
+  margin-top: 17px;
+}
+#username {
+  width: 250px;
+}
+.error {
+  color: red;
+}

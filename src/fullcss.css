@@ -1,0 +1,226 @@
+body {
+  width: 100%;
+}
+
+.navwid {
+  width: 100%;
+}
+
+.shift {
+  margin-top: 7px;
+  margin-right: -5px;
+}
+
+.modal-dialog {
+  height: 500px;
+  width: 400px;
+}
+
+.modal-header h5 {
+  text-shadow: 0 0 0 black;
+}
+
+.contain {
+  width: 90%;
+  margin-left: 73px;
+}
+
+.move {
+  margin-left: 60px;
+  vertical-align: middle;
+  line-height: 90%;
+}
+
+.innerdes1 h4 {
+  color: red;
+  font-size: 17px;
+  text-shadow: 0 0 0 red;
+  font-weight: bold;
+}
+
+.panelmode {
+  margin-left: 15px;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.truepanel {
+  height: 180px;
+  width: 220px;
+  margin-bottom: 0;
+}
+
+.hi {
+  margin-top: -5px;
+  vertical-align: middle;
+}
+
+.hello {
+  margin-top: 30px;
+}
+
+.id {
+  line-height: 20px;
+}
+
+.dropdown-menu li a:hover {
+  background: #428bca;
+  color: white;
+}
+
+.id1 {
+  margin-top: 8px;
+}
+
+.artist {
+  margin-left: 80px;
+  margin-top: 60px;
+  margin-bottom: -10px;
+}
+
+.artist1 {
+  margin-left: 80px;
+}
+
+.artist2 {
+  margin-left: 40px;
+}
+
+.divide {
+  margin-left: 120px;
+  margin-right: 110px;
+}
+
+.des {
+  margin-left: 5px;
+  width: 540px;
+  height: auto;
+}
+
+.des1 {
+  margin-top: 7px;
+}
+
+.despanel {
+  margin-top: 20px;
+}
+
+.blue {
+  color: #428bca;
+}
+
+table thead tr th h4 {
+  font-size: 15px;
+  text-shadow: 0 0 0 black;
+  margin-left: 5px;
+}
+
+table thead tr th {
+  border-bottom: 2px solid #ddd !important;
+}
+
+table tbody tr td .infont {
+  font-size: 14px;
+  text-shadow: 1px 0.4px 0px black;
+}
+
+.textcolor {
+  color: #428bca;
+  text-shadow: 0 0 0 #428bca;
+}
+
+.artimg {
+  height: 100px;
+  margin-bottom: 8px;
+}
+
+.move1 {
+  margin-left: -30px;
+}
+
+.textin {
+  font-size: 12px;
+}
+
+.inbutton {
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.pos {
+  vertical-align: baseline;
+}
+
+.intd {
+  border-right: 1px solid white !important;
+}
+
+.infopan {
+  margin-left: 290px;
+  width: 225px;
+}
+
+.ina {
+  margin-left: 9px;
+}
+
+.sales tbody tr:first-child td {
+  padding: 7px;
+  visibility: hidden;
+}
+
+.sales tbody tr:last-child td {
+  padding: 12px;
+  visibility: hidden;
+}
+
+.sales tbody tr td {
+  border: 0;
+}
+
+.searchcon h1 {
+  margin-left: -5px;
+  margin-top: 40px;
+}
+
+.alecolor {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-top: 2px solid #ddd;
+  margin-bottom: 25px;
+}
+
+.filter {
+  margin-top: 10px;
+  margin-bottom: -18px;
+}
+
+.searchtable tr td {
+  padding-top: 5px;
+}
+
+.full {
+  width: 1110px;
+  display: none;
+}
+
+.seconddiv {
+  width: 957px;
+  margin-left: -80px;
+}
+
+.fulldiv {
+  margin-bottom: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.highlight {
+  background: yellow;
+}
+
+.navigate1 {
+  display: none;
+}
